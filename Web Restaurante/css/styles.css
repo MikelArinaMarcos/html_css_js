@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     height: 0;
     overflow: hidden;
-    
+    transition: height .3s linear;
 }
 
 .menu__link {
@@ -141,6 +141,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu__link--select {
     background:#DE423A;    
+}
+
+.mostrar {
+    height: 196px;
 }
 
 /*-----------------Estilos del Banner-----------------*/
